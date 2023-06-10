@@ -11,3 +11,11 @@
     padding: 0 2%;
     margin: auto;
 }
+
+section.main{
+    background-image: url('imagens/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
