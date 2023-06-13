@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
@@ -14,80 +14,70 @@
 }
 
 section.main{
-    background-image: url('imagens/bg.svg');
+    background-image: url('images/bg.svg');
     background-position: center;
     background-size: cover;
     min-height: 700px;
-    padding: 20px 0 80px 0;
+    padding:20px 0 80px 0;
 }
 
-.menu{
-    display: flex;
-    width: 100%;
-}
+.menu{display: flex;width:100%;}
 
-.logo-menu{
-    width: 50%;
-}
+.logo-menu{width:50%;}
+
 .items-menu{
-    width: 50%;
+    width:50%;
+    text-align: right;
 }
 
-.items-menu a {
+.items-menu a{
     font-weight: bold;
-    color: white;
+    color:white;
     text-decoration: none;
     display: inline-block;
-    margin: 0 10px;
+    margin:0 10px;
 }
 
 .items-menu a:hover{
-    border-bottom: 2px solid #ffdd33;
+    border-bottom:2px solid #FFDD33;
 }
+
 
 .items-menu a.contact-btn{
-    background-color: #0f3fd3;
-    padding: 10px 10px;
-    border-radius: 10px;
+    background-color:#0F3FD3;
+    padding:10px 10px;
+    border-radius:10px;
 }
 .items-menu a.contact-btn:hover{
-    border: 0;
+    border:0;
 }
 
-.mockup{
-    display: block;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-}
+.mockup{display: block;width:100%;color:white;text-align:center;padding-top:100px;}
 
-.mockup h1 {
+.mockup h1{
     font-size: 50px;
 }
 
-.mockup img{
-    max-width: 100%;
-}
+.mockup img{max-width: 100%;}
 
 section.marcas{
-    padding: 100px 0;
+    padding:100px 0;
 }
 
 section.marcas img{
     width: calc(100% / 5);
 }
 
-
 section.porque-nos{
-    padding: 40px 0;
-    background-color: #fbfcfe;
+    padding:40px 0;
+    background-color:  #FBFCFE;
+
 }
 
 section.porque-nos > .center > h2{
     font-size: 64px;
     text-align: center;
-    width: 100%;
+    width:100%;
 }
 
 section.porque-nos > .center{
@@ -96,96 +86,85 @@ section.porque-nos > .center{
 
 section.porque-nos > .center > p{
     font-size: 14px;
-    color: #ccc;
+    color:#ccc;
     text-align: center;
-    width: 100%;
+    width:100%;
 }
 
 .diferenciais{
     display: flex;
-    margin-top: 50px;
+    margin-top:50px;
 }
 
 .box-diferenciais{
-    box-shadow: 0px 20px 40px #2426721c;
-    width: 31%;
+    box-shadow: 0px 20px 40px #2426721C;
+    width:31%;
     margin-right: 2%;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding:10px 20px;
+    border-radius:10px;
 }
 
 .box-diferenciais h3{
     font-size: 28px;
-    color: black;
-    margin: 20px 0;
+    color:black;
+    margin:20px 0;
 }
 
 .box-diferenciais p{
     font-size: 13px;
-    color: #7e92ac;
+    color: #7E92AC;
     margin-bottom: 20px;
 }
 
 section.cta{
-    background-image: url('imagens/banner_meio.svg');
+    background-image: url('images/banner_meio.svg');
     background-size: cover;
     background-position: center;
-    padding: 20px 10px;
+    padding:20px 10px;
     min-height: 200px;
-    color: white;
+    color:white;
     text-align: center;
 }
 
 section.cta h2,
 section.cta h4{
     font-weight: normal;
-    margin: 10px 0;
+    margin:10px 0;
 }
 
 section.cta h2{
     font-size: 40px;
 }
 
-section.cta a {
+section.cta a{
     display: inline-block;
-    padding: 8px 15px;
-    border-radius: 7px;
+    padding:8px 15px;
+    border-radius:7px;
     font-weight: bold;
     font-size: 17px;
-    background: #ffdd33;
+    background: #FFDD33;
     text-decoration: none;
-    color: #0f3fd3;
-}
-
-section a {
-    display: inline-block;
-    padding: 8px 15px;    
-    border-radius: 7px;
-    font-weight: bold;
-    font-size: 17px;
-    background: blue;
-    text-decoration: none;
-    color: white;
+    color: #0F3FD3;
 }
 
 section.beneficios{
-    padding: 50px 0;
+    padding:50px 0;
 }
 
 .lista-beneficios{
-    width: 50%;
-    vertical-align: top;
+    width:40%;
+    margin-top:30px;
+}
+
+.lista-beneficios h1{
+    color:black;
+    font-size: 40px;
 }
 
 .lista-beneficios p{
-    color: #7e92ac;
-    vertical-align: top;
-    font-size: 10px;
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
+    color: #7E92AC;
+   vertical-align: middle;
+   font-size: 14px;
 }
 
 .lista-beneficios span{
@@ -196,44 +175,118 @@ h1{
 .lista-beneficios img{
     display: inline-block;
     vertical-align: middle;
-    width: 70px;
+    width:70px;
+}
+.img-beneficios{
+    width: 60%;
 }
 
-.img-beneficios {
-    width: 50%;
+.img-beneficios img{max-width: 100%;}
+
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding:40px 0;
 }
 
-.img-beneficios img{
-    max-width: 100%;
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
 }
+
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
 
 @media screen and (max-width: 768px) {
 
     .lista-beneficios,.img-beneficios{
-        width: 100%;
+        width:100%;
         margin-bottom: 30px;
     }
-
-
-
     .diferenciais{
+        
         flex-wrap: wrap;
+       
     }
-   
-    .box-diferenciais{       
-        width: 100%;
-        margin-right: 0;        
+    .box-diferenciais{
+        
+        width:100%;
+        margin-right: 0;
+        
     }
 
-    section.marcas> .center{
+   
+    section.marcas > .center{
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
     }
-
     section.marcas img{
         max-width: 300px;
-        width: 100%;
-       
+        width:100%;
     }
 }
