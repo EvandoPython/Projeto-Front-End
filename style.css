@@ -310,7 +310,66 @@ section.contato form{
     border-radius: 10px;
 }
 
+footer{
+    padding: 10px 0;
+    background: #255aff;
+    color: white;
+}
+
+.text-footer{
+    width: 50%;
+    padding: 8px 0;
+}
+
+.items-menu-mobile{
+    width: 50%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 768px) {
+
+    .items-menu-mobile{
+        display: block;
+       
+    }
+
+    .menu-mobile{
+        position: absolute;
+        left: 0;
+        top:50px;
+        background-color: white;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    section.main .items-menu{
+        display: none;
+    }
+
+    footer .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .items-menu a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
 
     .lista-beneficios,.img-beneficios{
         width:100%;
