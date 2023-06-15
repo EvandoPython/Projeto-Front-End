@@ -329,6 +329,8 @@ footer{
 
 .items-menu-mobile i{
     color: white;
+    position: relative;
+    top: 15px;
     font-size: 23px;
     cursor: pointer;
 }
@@ -342,12 +344,35 @@ footer{
     }
 
     .menu-mobile{
+        opacity: 0;
+        transition: 1s;
         position: absolute;
         left: 0;
-        top:50px;
+        top:65px;
         background-color: white;
         width: 100%;
         padding: 20px 0;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+        display: block;
+    }
+
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a {
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid rgb(40,40,40);
+        padding: 8px 0;
     }
 
     section.main .items-menu{
